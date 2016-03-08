@@ -1,0 +1,19 @@
+{
+    "background": {
+        "scripts": [
+        "background.js"
+        ]
+    },
+    "description": "Change Google Api server url to cdnjs.com at China",
+    "name": "GoogleApiChange",
+    "permissions": [
+        "http://*/*",
+        "https://*/*",
+        "webRequest",
+        "webRequestBlocking"
+        ],
+    "update_url": "http://clients2.google.com/service/update2/crx",
+    "version": "1.0",
+    "minimum_chrome_version": "18",
+    "manifest_version":2
+}
